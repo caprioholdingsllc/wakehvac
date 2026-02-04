@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raleigh HVAC Experts | AC & Heating Across the Triangle</title>
+    <meta name="description" content="HVAC services across Raleigh, Cary, Apex, and Wake County. AC repair, heating service, and HVAC installation.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: #dc2626;
+            color: white;
+            padding: 1rem 2rem;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .phone {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .hero {
+            background: #b91c1c;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .about-section {
+            margin-bottom: 3rem;
+        }
+        .about-section h2 {
+            color: #dc2626;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .about-section p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .local-note {
+            background: #fee2e2;
+            border-left: 4px solid #f87171;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+        }
+        .local-note h3 {
+            color: #991b1b;
+            margin-bottom: 0.75rem;
+        }
+        .local-note p {
+            color: #b91c1c;
+        }
+        .services-section {
+            margin: 3rem 0;
+        }
+        .services-section h2 {
+            color: #dc2626;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .service-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-left: 3px solid #f87171;
+        }
+        .service-card h3 {
+            color: #dc2626;
+            margin-bottom: 0.5rem;
+        }
+        .service-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .availability-section {
+            background: #fef3c7;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+        }
+        .availability-section h2 {
+            color: #92400e;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+        .availability-section p {
+            color: #78350f;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+        .form-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 650px;
+            margin: 3rem auto;
+        }
+        .form-section h2 {
+            color: #dc2626;
+            margin-bottom: 1.5rem;
+        }
+        .form-group {
+            margin-bottom: 1.15rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.4rem;
+            font-weight: 500;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 0.7rem;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #f87171;
+        }
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .submit-btn {
+            background: #dc2626;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            background: #b91c1c;
+        }
+        .footer {
+            background: #1e293b;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">Raleigh HVAC Experts</div>
+            <div class="phone">📞 (919) 635-9141</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>AC & Heating Across the Triangle</h1>
+        <p>Raleigh, Cary, Apex, and Wake County</p>
+    </section>
+
+    <div class="container">
+        <section class="about-section">
+            <h2>About Us</h2>
+            <p>We're a local HVAC company serving the Triangle area. Been doing this for years—AC repairs, heating service, and full system installations.</p>
+            <p>Most of our calls are AC problems in summer and heat pump issues in winter. We handle residential and light commercial work across Wake County.</p>
+
+            <div class="local-note">
+                <h3>🌡️ Typical Triangle HVAC Work</h3>
+                <p>Most common calls we get: AC not cooling during humid North Carolina summers, heat pumps struggling on cold mornings, ductwork issues in older Raleigh homes, and system replacements in 15-20 year old units. Summer's our busiest season—AC failures spike when temps hit 90°+.</p>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>AC Repair</h3>
+                    <p>Fix broken air conditioners. Refrigerant leaks, compressor issues, not cooling.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Heating Repair</h3>
+                    <p>Heat pump and furnace repair. No heat, not warming properly.</p>
+                </div>
+                <div class="service-card">
+                    <h3>System Installation</h3>
+                    <p>New HVAC systems. Heat pumps, AC units, and complete replacements.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Maintenance</h3>
+                    <p>Tune-ups and seasonal maintenance. Keep systems running efficiently.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Ductwork</h3>
+                    <p>Duct repair and replacement. Fix leaks and improve airflow.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Thermostats</h3>
+                    <p>Install and program thermostats. Smart thermostat setup.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="availability-section">
+            <h2>Availability</h2>
+            <p>Emergency AC calls get priority in summer—nobody should be without air conditioning when it's 95° and humid.</p>
+            <p>Most service calls scheduled same or next day. System replacements take 1-2 days from approval to installation.</p>
+            <p>Busy season runs May through September. Fall and winter usually have better availability for non-emergency work.</p>
+        </section>
+
+        <section class="form-section">
+            <h2>Contact</h2>
+            <form id="leadForm" action="https://hook.us2.make.com/gzcbxb8x2e5xph37kjhm48ur4khvh7ir" method="POST">
+                <input type="hidden" name="site_id" value="WAKE-HVAC-001">
+                <input type="hidden" name="market" value="Wake County">
+                <input type="hidden" name="industry" value="HVAC">
+                <input type="hidden" name="lead_type" value="Service Request">
+                <input type="hidden" name="source_url" value="raleighhvacexperts.com">
+                
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Service Address *</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="service_type">Service Needed *</label>
+                    <select id="service_type" name="service_type" required>
+                        <option value="">Select...</option>
+                        <option value="AC Repair">AC Repair</option>
+                        <option value="Heating Repair">Heating Repair</option>
+                        <option value="Installation">Installation</option>
+                        <option value="Maintenance">Maintenance</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Problem Description *</label>
+                    <textarea id="details" name="details" required placeholder="Describe what's happening..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Request Service</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Raleigh HVAC Experts</p>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            fetch(this.action, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            }).then(() => {
+                window.location.href = 'thanks.html';
+            }).catch(() => {
+                window.location.href = 'thanks.html';
+            });
+        });
+    </script>
+</body>
+</html>
